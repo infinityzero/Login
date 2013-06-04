@@ -1,0 +1,18 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui">
+	<ui:style>
+		.panel {
+			text-align: center;
+		}
+	</ui:style>
+	<g:HTMLPanel>
+		<div class="{style.panel}">
+			<h1>Welcome!</h1>
+			<p>
+				Your name is
+				<g:Label ui:field="lblUsername" />
+			</p>
+		</div>
+	</g:HTMLPanel>
+</ui:UiBinder> 

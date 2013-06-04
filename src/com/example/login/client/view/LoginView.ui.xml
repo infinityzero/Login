@@ -1,0 +1,21 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui">
+	<ui:style>
+		
+	</ui:style>
+	<g:HTMLPanel>
+		<table style="margin-top: 100px;" align="center" >
+			<tr>
+				<td>User name:</td>
+				<td><g:TextBox ui:field="txtUsername"/></td>
+			</tr>
+				<tr><td>Password:</td>
+				<td><g:PasswordTextBox ui:field="txtPassword"/></td>
+			</tr>
+			<tr>
+				<td colspan="2" style="text-align:center;"><g:Button ui:field="btnLogin" text="Login"/></td>
+			</tr>
+		</table>
+	</g:HTMLPanel>
+</ui:UiBinder> 
