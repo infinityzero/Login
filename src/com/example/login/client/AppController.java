@@ -18,8 +18,8 @@ public class AppController implements ValueChangeHandler<String> {
 	
 	public void go(final HasWidgets container) {
 		this.container = container;
-		if("".equals(History.getToken())) { // first time req
-			History.newItem("login");
+		if("".equals(History.getToken())) {
+			History.newItem("login"); // default page to go
 		} else {
 			History.fireCurrentHistoryState();
 		}
